@@ -1,7 +1,7 @@
 // import './App.css';
 // import Main from './components/Class2/Main';
 // import Main from './components/CalculatorApp/Main';
-// import MovieRatingList from './components/MovieRating/MovieRatingList';
+import MovieRatingList from './components/MovieRating/MovieRatingList';
 
 import List from "./components/Todolist/List";
 
@@ -15,9 +15,9 @@ function App() {
 
      {/* <Main /> */}
 
-     {/* <MovieRatingList /> */}
+     <MovieRatingList />
 
-     <List />
+       {/*<List />*/}
 
     </>
   )
