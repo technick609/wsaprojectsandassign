@@ -3,7 +3,7 @@
 // import Main from './components/CalculatorApp/Main';
 // import MovieRatingList from './components/MovieRating/MovieRatingList';
 
-import List from "./components/To-Do list/List";
+import List from "./components/Todolist/List";
 
 function App() {
 
