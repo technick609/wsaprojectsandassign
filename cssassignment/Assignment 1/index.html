@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="heading">
+            <h1>Buy Tickets to the Web Developer Gala</h1>
+            <p>Tickets are $10 each. Dinner packages are an extra $5. All fields are required.</p>
+        </div>
+        <div class="section">
+            <div class="head">
+                <h3>Tickets and Add-ons</h3>
+            </div>
+            <div class="window">
+                <div>
+                    <label style="color: green; font-size: 20px; margin-right: 8px;">Number of Tickets</label><label style="color: red;">Limit 8</label>
+                    <input type="number" value="1">
+                </div>
+                <div>
+                    <label style="color: green; font-size: 20px; margin-right: 8px;">Dinner Packages</label><label style="color: red;">Serves 2</label>
+                    <input type="number" value="1">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <h3>Payment</h3>
+            </div>
+            <div class="window">
+                <div>
+                    <label style="color: blueviolet; font-size: 20px; margin-right: 8px;">Credit / Debit Card Number</label><label style="color: red;">No spaces or dashes, please.</label>
+                    <input type="text" placeholder="333254886521685">
+                </div>
+                <div>
+                    <label style="color: blueviolet; font-size: 20px; margin-right: 8px;">Expiration date</label><label style="color: red;">MM/YYYY</label>
+                    <input type="text" placeholder="01/2024">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <h3>Billing Address</h3>
+            </div>
+            <div class="window billing"> 
+                <div class="labeling">
+                    <label style="color: darkgreen; font-size: 20px;">Name</label>
+                    <input type="text" placeholder="ex. John Q. Public">
+                </div>
+                <div class="labeling">
+                    <label style="color: darkgreen; font-size: 20px;">Street Address</label>
+                    <input type="text" placeholder="ex. 123, Apt- abc, Main Street,">
+                </div>
+                <div class="labeling">
+                    <label style="color: darkgreen; font-size: 20px;">City</label>
+                    <input type="text" placeholder="ex. Anytown">
+                </div>
+                <div class="labeling">
+                    <label style="color: darkgreen; font-size: 20px;">State</label>
+                    <input type="text" placeholder="C.A.">
+                </div>
+                <div class="labeling">
+                    <label style="color: darkgreen; font-size: 20px;">Zip Code</label>
+                    <input type="text" placeholder="12345">
+                </div> 
+            </div>
+        </div>
+        <button type="button">Buy Tickets!</button> 
+    </div>
+
+</body>
+</html>

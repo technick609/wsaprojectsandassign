@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Assignments</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            width: 100%;
+            height: 100vh;
+            box-sizing: border-box;
+            font-family: "Fredoka", system-ui;
+        }
+
+        .container{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+        }
+
+        video{
+            width: 100%;
+            position: absolute;
+            z-index: -2;
+            object-fit: cover;
+        }
+
+        img{
+            height: 117vh;
+            width: 100%;
+            position: absolute;
+            z-index: -2;
+            object-fit: cover;
+        }
+
+        .wrapper{
+            width: 240px;
+            height: 140px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #111827;
+            background-color: #f9fafb;
+            border: 2px solid #111827;
+            border-radius: 20px;
+            transition: all 0.3s;
+            margin: 10px 0;
+        }
+
+        .wrapper::after{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: #111827;
+            border-radius: inherit;
+            translate: 7px 7px;
+            transition: 0.3s;
+            z-index: -1;
+        }
+
+        .wrapper:hover::after{
+            translate: 0;
+        }
+
+        .wrapper:hover{
+            background-color: #111827;
+            color: #ffffff;
+        }
+
+        a{
+            position: relative;
+            width: 300px;
+            height: 200px;
+            text-decoration: none;
+        }
+
+        h2{
+            font-size: 35px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <img src="" style="display: none;" id="image">
+    <video src="./index/background-video.mp4" id="vid" autoplay muted loop></video>
+    <div class="container" id="main">
+        <a href="./Assignment 1/index.html" target="_blank"><div class="wrapper" id="ss-1"><h2>Assignment 1</h2></div></a>
+        <a href="./Assignment 2/navbar.html" target="_blank"><div class="wrapper" id="ss-2"><h2>Assignment 2</h2></div></a>
+        <a href="./Assignment 3/main.html" target="_blank"><div class="wrapper" id="ss-3"><h2>Assignment 3</h2></div></a>
+        <a href="./Assignment 4/index.html" target="_blank"><div class="wrapper" id="ss-4"><h2>Assignment 4</h2></div></a>
+        <a href="./Assignment 5/pallet.html" target="_blank"><div class="wrapper" id="ss-5"><h2>Assignment 5</h2></div></a>
+        <a href="./Assignment 6/index.html" target="_blank"><div class="wrapper" id="ss-6"><h2>Assignment 6</h2></div></a>
+        <a href="./Assignment 7/index.html" target="_blank"><div class="wrapper" id="ss-7"><h2>Assignment 7</h2></div></a>
+        <a href="./Assignment 8/index.html" target="_blank"><div class="wrapper" id="ss-8"><h2>Assignment 8</h2></div></a>
+        <a href="./Assignment 9/index.html" target="_blank"><div class="wrapper" id="ss-9"><h2>Assignment 9</h2></div></a>
+        <a href="./Assignment 10/index.html" target="_blank"><div class="wrapper" id="ss-10"><h2>Assignment 10</h2></div></a>
+        <a href="./Assignment 11/index.html" target="_blank"><div class="wrapper" id="ss-11"><h2>Assignment 11</h2></div></a>
+        <a href="./Assignment 12/window.html" target="_blank"><div class="wrapper" id="ss-12"><h2>Assignment 12</h2></div></a>
+        <a href="./Assignment 13/main.html" target="_blank"><div class="wrapper" id="ss-13"><h2>Assignment 13</h2></div></a>
+    </div>
+
+
+    <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                const vid = document.getElementById("vid");
+                const image = document.getElementById("image");
+                const SS_1 = document.getElementById("ss-1");
+                const SS_2 = document.getElementById("ss-2");
+                const SS_3 = document.getElementById("ss-3");
+                const SS_4 = document.getElementById("ss-4");
+                const SS_5 = document.getElementById("ss-5");
+                const SS_6 = document.getElementById("ss-6");
+                const SS_7 = document.getElementById("ss-7");
+                const SS_8 = document.getElementById("ss-8");
+                const SS_9 = document.getElementById("ss-9");
+                const SS_10 = document.getElementById("ss-10");
+                const SS_11 = document.getElementById("ss-11");
+                const SS_12 = document.getElementById("ss-12");
+                const SS_13 = document.getElementById("ss-13");
+
+
+                SS_1.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-1.png"
+                });
+
+                SS_1.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_2.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-2.png"
+                });
+                SS_2.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_3.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-3.png"
+                });
+                SS_3.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_4.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-4.png"
+                });
+                SS_4.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_5.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-5.png"
+                });
+                SS_5.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_6.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-6.png"
+                });
+                SS_6.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_7.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-7.png"
+                });
+                SS_7.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_8.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-8.png"
+                });
+                SS_8.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_9.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-9.png"
+                });
+                SS_9.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_10.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-10.png"
+                });
+                SS_10.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_11.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-11.png"
+                });
+                SS_11.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+
+                SS_12.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-12.png"
+                });
+                SS_12.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+
+                
+                SS_13.addEventListener("mouseover", () => {
+                    vid.style.display = "none"
+                    image.style.display = "block"
+                    image.src = "./index/A-13.png"
+                });
+                SS_13.addEventListener("mouseout", () => {
+                    vid.style.display = "block"
+                    image.style.display = "none"
+                });
+            });
+
+    </script>
+
+</body>
+</html>

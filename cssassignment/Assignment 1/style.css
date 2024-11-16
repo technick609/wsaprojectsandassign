@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    background-color: #fe9771;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 200vh;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.heading h1{
+    color: navy;
+    text-align: center;    
+}
+.heading p{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.section{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10% 0;
+}
+
+div h3{   
+    position: relative;
+    background-color: pink;
+    color: #ff5874;
+    z-index: 1;
+}
+
+.window{
+    position: absolute;
+    width: 50%;
+    height: 150px;
+    border: 2px solid #cfcfcf;
+    background-color:#d2faff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 2%;
+}
+
+.labeling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.billing{
+    height: 70vh;
+}
+
+button{
+    margin-top: 40%;
+    z-index: 10;
+    padding: 15px 25px;
+    background-color: orange;
+    border-left: 3px solid #c3c3c3;
+    border-top: 3px solid #c3c3c3;
+    color: green;
+}

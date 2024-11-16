@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffff9d;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 5%;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 1px;
+    border: 3px solid #b50000;
+    width: 50%;
+}
+
+th{
+    font-size: 30px;
+    padding: 30px;
+    background-color: #ffea04;
+    color: blue;
+}
+
+td, th{
+    text-align: center;
+    border: 2px solid #b50000;  
+}
+
+
+td img{
+    display: block;
+    width: 205px;
+    height: 200px;
+}
+
+.sized{
+    display: block;
+    width: 623px;
+    height: 200px;
+}

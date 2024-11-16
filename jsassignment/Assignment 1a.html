@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const userName = prompt("Enter Employee Name");
+        const userId = prompt("Enter Employee ID");
+        const salary = Number(prompt("Enter Employee salary in Rs."));
+        const TA = (15/100) * salary;
+        const DA = (35/100) * salary;
+        const gross_Salary = salary + TA + DA
+        
+
+        document.write("ID No.: " + (userId) + " - " + "The gross salary of " + (userName) + " is ₹" + (gross_Salary));
+    </script>
+
+</body>
+</html>

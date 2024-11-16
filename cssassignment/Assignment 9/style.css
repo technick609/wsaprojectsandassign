@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(135, 103, 39);
+}
+
+.main-container{
+    background-color: #fdedd8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border: 15px solid rgb(84, 62, 45);
+}
+
+.main{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.navbar{
+    padding: 10px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70%;
+}
+
+.nav-img img{
+    width: 120px;
+    height: 120px;
+}
+
+.sr-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sr-num h3{
+    font-size: 24px;
+}
+.sr-num p{
+    font-size: 20px;
+    font-weight: 600;
+    color: brown;
+}
+
+.headings{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.name-heading{
+    font-size: 22px;
+}
+
+.logo-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 83%;
+}
+
+.text-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    text-align: center;
+}
+.text-name h2{
+    font-size: 30px; 
+    font-weight: bolder;
+}
+
+
+.stamp-logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 98%;
+}
+
+.content-sheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120vh;
+    margin-bottom: 70vh;
+}
+
+.statement-marks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.sheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sheet h4{
+    text-decoration: underline;
+}
+
+
+/* Info table */
+.hidden-tab{
+    width: 95%;
+}
+
+.hidden-tab table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hidden-tab td{
+    padding: 10px;
+}
+
+.tab-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/* Marks table */
+.tab-1 table{
+    border-collapse: collapse;
+    width: 95%;
+    font-size: 18px;
+}
+
+.tab-1 td, .tab-1 th{
+    padding: 10px;
+    border: 2px solid rgb(84, 62, 45);
+    text-align: center;
+}
+
+.special-col{
+    text-align: left !important;
+    width: 95%;
+}
+
+.total-col{
+    width: 5%;
+    text-align: center;
+}
+
+
+.tab-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tab-2 table{
+    border-collapse: collapse;
+    width: 95%;
+    font-size: 18px;
+}
+
+.tab-2 td, .tab-2 th{
+    padding: 10px;
+    border: 2px solid rgb(84, 62, 45);
+    text-align: center;
+}
+
+.sp-col{
+    text-align: left !important;
+    width: 65%;
+}
+
+
+.content-signs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.code-signs{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.code-signs img{
+    width: 200px;
+    height: 70px;
+}
+
+.barcode{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    background-color: #fdf4b9;  
+}
+
+.sign{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(84, 62, 45);
+    padding: 10px;
+    background-color: #fdf4b9;  
+}
+
+.sign-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    font-size: 18px;
+    padding: 10px;
+}

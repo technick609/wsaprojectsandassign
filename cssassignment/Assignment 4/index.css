@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 2px solid black;
+    background-color: #cbcbcb;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 90%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 170px;
+    background-color: #e3e0e0;
+}
+
+.empty1{
+    display: flex;
+    align-self: flex-end;
+    background-color: #cbcbcb;
+    height: 50px;
+    width: 100px; 
+}
+
+.empty2{
+    display: flex;
+    align-self: flex-start;
+    background-color: #cbcbcb;
+    height: 50px;
+    width: 100px; 
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.heading h1{
+    font-size: 30px;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 30px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+    width: 100%; 
+    gap: 20px;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    gap: 30px;
+}
+
+.box1{
+    width: 280px;
+    height: 230px;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 280px;
+    height: 330px;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    width: 480px;
+    height: 560px;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 280px;
+    height: 250px;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box5{
+    width: 280px;
+    height: 310px;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+

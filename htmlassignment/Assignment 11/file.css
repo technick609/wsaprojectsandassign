@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.heading{
+    background-color: #333333;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.heading ul{
+    color: #ffffff;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.main-container>h2{
+    text-transform: uppercase;
+    padding: 30px 0 0 0 ;
+    font-size: 20px;
+}
+
+.content-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 30px 0;
+    gap: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 30px;
+}
+
+.content div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 70%;
+}
+
+.content div h2{
+    background-color: #21f1ac;
+    color: #ffffff;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.content div h4, .content div p{
+    font-size: 12px;
+    position: relative;
+    top: -50px;
+}
+
+.content button{
+    background-color: #21f1ac;
+    color: #ffffff;
+    width: fit-content;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.nav-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 20px;
+}
+
+.nav-buttons p{
+    background-color: #21f1ac;
+    color: #ffffff;
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    font-size: 40px;
+    align-content: flex-start;
+    align-items: center;
+}

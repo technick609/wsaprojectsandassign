@@ -1,0 +1,75 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    color: #00c9ff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.city1 h2{
+    background-color: #00c9ff; 
+    color: #ffffff; 
+    font-size: 27px;
+}
+
+.city1 p{
+    color: #1e9fab; 
+    font-size: 18px;
+}
+
+.city2 h2{
+    background-color: #1e9fab; 
+    color: #ffffff; 
+    font-size: 27px;
+}
+
+.city2 p{
+    color: #285bd4; 
+    font-size: 18px;
+}
+
+.city3 h2{
+    background-color: #285bd4; 
+    color: #ffffff; 
+    font-size: 27px;
+}
+
+.city3 p{
+    color: #d324f6; 
+    font-size: 18px;
+}
+
+.city4 h2{
+    background-color: #d324f6; 
+    color: #ffffff; 
+    font-size: 27px;
+}
+
+.city4 p{
+    color: #5d06af; 
+    font-size: 18px;
+}
+
+.city5 h2{
+    background-color: #5d06af; 
+    color: #ffffff; 
+    font-size: 27px;
+}
+
+.city5 p{
+    color: #e4a609; 
+    font-size: 18px;
+}
+
+.city6 h2{
+    background-color: #0fc7a5; 
+    color: #ffffff; 
+    font-size: 27px;
+}
+
+.city6 p{
+    color: #0336cc; 
+    font-size: 18px;
+}

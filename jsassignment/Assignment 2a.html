@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let Time = Number(prompt("Enter time between 1 to 24 hrs."));
+
+        if(Time >= 1 && Time < 12){
+            document.write("Good Morning!");
+        }
+        else if(Time >= 12 && Time < 16){
+            document.write("Good Noon!");
+        }
+        else if(Time >= 16 && Time < 19){
+            document.write("Good Evening!");
+        }
+        else if(Time >= 19 && Time <= 24){
+            document.write("Good Night!");
+        }
+        else{
+            alert("Enter the correct time");
+        }
+    </script>
+
+</body>
+</html>
